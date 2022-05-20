@@ -184,7 +184,7 @@ body::-webkit-scrollbar-thumb:active {
    margin-bottom: 130px;
 }
 .about-1 li a {
-   color: white;
+   color: var(--blue);
    transition: all 0.4s ease;
 }
 .about-1 li a:hover {
