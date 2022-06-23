@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb:active {
    color: white;
    display: none;
 }
-/* .navbar .resume {
+.navbar .resume {
    width: max-content;
    padding: 12px;
    border-radius: 25px;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar-thumb:active {
    background-color: var(--orange);
    color: black;
    font-weight: 500;
-} */
+}
 
 /* HOME */
 .home {
@@ -167,7 +167,6 @@ body::-webkit-scrollbar-thumb:active {
    padding-bottom: 60px;
    background-color: var(--dark-magenta);
    border-top: 5px solid black;
-   border-bottom: 5px solid black;
    position: relative;
 }
 .about-container {
@@ -263,7 +262,7 @@ body::-webkit-scrollbar-thumb:active {
    text-align: center;
    color: white;
    opacity: 0;
-   transition: all 0.5s ease;
+   transition: all 0.3s ease;
 }
 .projects-container figcaption h3 {
    display: inline-block;
