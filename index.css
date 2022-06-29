@@ -153,7 +153,7 @@ body::-webkit-scrollbar-thumb:active {
 .home {
    height: 100%;
    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-      url(./images/comet.jpg) no-repeat fixed center;
+      url(./images/comet.png) no-repeat fixed center;
    background-size: cover;
 }
 .word-program {
@@ -278,7 +278,7 @@ body::-webkit-scrollbar-thumb:active {
    position: relative; /* for art credit abs positioning */
    height: 100%;
    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(./images/girl.jpg) fixed center center;
+      url(./images/mountain.jpg) fixed center center;
    background-size: cover;
 }
 .contact-wrapper {
