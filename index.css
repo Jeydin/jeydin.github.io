@@ -27,21 +27,13 @@ html {
    scroll-behavior: smooth;
 }
 body {
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
    height: 100%;
    background-color: var(--dark);
 }
 body::-webkit-scrollbar {
-   width: 15px;
-}
-body::-webkit-scrollbar-track {
-   background: black;
-   box-shadow: -3px 0 5px black;
-}
-body::-webkit-scrollbar-thumb {
-   background-color: grey;
-}
-body::-webkit-scrollbar-thumb:active {
-   background-color: rgb(88, 88, 88);
+   display: none;
 }
 :target {
    scroll-margin-top: 60px;
